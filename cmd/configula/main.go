@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	pythonCommand = flag.String("python", "python3", "The executable to run for Python, overridden by $CONFIGULA_PYTHON")
+	pythonCommand = flag.String("python", "python", "The executable to run for Python, overridden by $CONFIGULA_PYTHON")
 	dryRun        = flag.Bool("debug", false, "If true, only output the interim program, don't execute")
 )
 
